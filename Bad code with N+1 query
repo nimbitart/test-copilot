@@ -1,0 +1,3 @@
+// Bad code - missing error handling
+const data = JSON.parse(userInput); // Could throw!
+return data;
